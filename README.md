@@ -1,6 +1,6 @@
 # Yeat Framework
 
-## AI-Powered Blockchain & Web Automation
+## AI-Powered Blockchain & Web Music Automation
 
 Yeat is an advanced AI-powered framework that integrates **web automation, blockchain interactions, and copy trading capabilities**. It enables intelligent web navigation, automated trading strategies, and blockchain transaction monitoring. With Yeat, users can automate **DeFi trading, execute blockchain transactions, and perform AI-driven web actions** seamlessly.
 
