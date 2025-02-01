@@ -1,8 +1,8 @@
-# Yeat Framework
+# Loic Framework
 
 ## AI-Powered Blockchain & Web Music Automation
 
-Yeat is an advanced AI-powered framework that integrates **web automation, blockchain interactions, and copy trading capabilities**. It enables intelligent web navigation, automated trading strategies, and blockchain transaction monitoring. With Yeat, users can automate **DeFi trading, execute blockchain transactions, and perform AI-driven web actions** seamlessly.
+Loic is an advanced AI-powered framework that integrates **web automation, blockchain interactions, and copy trading capabilities**. It enables intelligent web navigation, automated trading strategies, and blockchain transaction monitoring. With Loic, users can automate **DeFi trading, execute blockchain transactions, and perform AI-driven web actions** seamlessly.
 
 ---
 
@@ -27,15 +27,15 @@ Yeat is an advanced AI-powered framework that integrates **web automation, block
 ### **1️⃣ Clone the Repository**
 
 ```bash
-git clone https://github.com/yourusername/yeat.git
-cd yeat
+git clone https://github.com/yourusername/Loic.git
+cd Loic
 ```
 
 ### **2️⃣ Set Up a Virtual Environment**
 
 ```bash
-python3 -m venv yeat_env
-source yeat_env/bin/activate  # On Windows: yeat_env\Scripts\activate
+python3 -m venv Loic_env
+source Loic_env/bin/activate  # On Windows: Loic_env\Scripts\activate
 ```
 
 ### **3️⃣ Install Dependencies**
@@ -72,10 +72,10 @@ rpc_url = "https://your-solana-rpc-url"
 
 ### **Web Automation**
 
-Yeat automates web interactions such as logging in, typing, and clicking buttons.
+Loic automates web interactions such as logging in, typing, and clicking buttons.
 
 ```python
-from yeat import WebAutomation, WebAction
+from Loic import WebAutomation, WebAction
 
 web_automation = WebAutomation()
 actions = [
@@ -91,7 +91,7 @@ await web_automation.execute_actions(actions)
 Monitor blockchain transactions and replicate profitable trades.
 
 ```python
-from yeat import CopyTrader
+from Loic import CopyTrader
 
 copy_trader = CopyTrader(private_key="your_private_key", rpc_url="https://your-solana-rpc-url", risk_config={})
 await copy_trader.run_copy_trading()
@@ -99,17 +99,17 @@ await copy_trader.run_copy_trading()
 
 ### **AI-Powered Decision Making**
 
-Yeat's AI can analyze transactions and automate decision-making.
+Loic's AI can analyze transactions and automate decision-making.
 
 ```python
-from yeat import AIFramework, CopyTrader, AIWebNavigator, WebAutomation
+from Loic import AIFramework, CopyTrader, AIWebNavigator, WebAutomation
 
 web_automation = WebAutomation()
 ai_web_navigator = AIWebNavigator(web_automation)
 copy_trader = CopyTrader(private_key="your_private_key", rpc_url="https://your-solana-rpc-url", risk_config={})
 
-yeat = AIFramework(copy_trader, ai_web_navigator, config={})
-await yeat.execute_task("trade")
+Loic = AIFramework(copy_trader, ai_web_navigator, config={})
+await Loic.execute_task("trade")
 ```
 
 ---
@@ -169,9 +169,9 @@ We welcome contributions! Feel free to **fork this repository**, create a featur
 
 ## 📩 Contact
 
-For questions or support, open an issue or reach out via [GitHub Issues](https://github.com/yourusername/yeat/issues).
+For questions or support, open an issue or reach out via [GitHub Issues](https://github.com/yourusername/Loic/issues).
 
 ---
 
-### ⭐ If you find Yeat useful, please give this repository a star!
-# YEAT
+### ⭐ If you find Loic useful, please give this repository a star!
+# Loic
